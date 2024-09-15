@@ -1,0 +1,43 @@
+{
+  "homepage": "adversedrugreactionduetocancer.github.io",
+  "name": "adr-due-to-chemotherapy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "^5.0.1",
+    "uuid": "^10.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "ajv": "^7.2.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.4.41",
+    "react-router-dom": "^6.26.1",
+    "tailwindcss": "^3.4.10"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
