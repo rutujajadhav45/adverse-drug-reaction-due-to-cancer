@@ -20,13 +20,14 @@ const Work = () => {
       </h2>
 
       <SubWork 
-	  	workImageLink="/assets/man-woman-working.avif"
+	  	workImageLink="/assets/work-image-3.jpeg"
+		width={500}
 		workDoneData={workDoneData[0]}
 		/>
 
       <SubWork
 		workDoneData={workDoneData[1]}
-		workImageLink="/assets/woman-working.avif"
+		workImageLink="/assets/man-woman-working.avif"
 		width={500}
 		reverseDirection={"sm:flex-row-reverse"}  
 		justifyCenter={"justify-center"} 
@@ -34,7 +35,8 @@ const Work = () => {
 
       <SubWork 
 	  workDoneData={workDoneData[2]}
-	  workImageLink="/assets/man-working.avif"
+	  workImageLink="/assets/work-image-2.jpeg"
+	  width={500}
 	  />
     </div>
   );

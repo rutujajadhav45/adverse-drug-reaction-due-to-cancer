@@ -1,5 +1,4 @@
 import React from "react";
-
 const Banner = () => {
   return (
     <div className="w-full flex sm:flex-wrap flex-col-reverse sm:flex-row">
@@ -30,7 +29,8 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex justify-end items-center sm:w-1/2">
-        <img src="/assets/banner.png" alt="banner" height={500} />
+        {/* <img src="/assets/banner.png" alt="banner" height={500} /> */}
+        <img src="/assets/banner5.png" alt="banner" height={500} />
       </div>
     </div>
   );

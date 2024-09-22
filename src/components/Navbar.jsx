@@ -11,11 +11,11 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="flex w-full flex-row  sticky top-0 bg-white sm:py-1 py-2">
+    <div className="flex w-full flex-row  sticky top-0 bg-white sm:py-1 py-2 z-50">
       {/* Logo */}
       <div className="logo w-4/5 sm:w-1/2 flex items-center justify-around sm:justify-start">
         <img src="/assets/favicon.png" alt="logo" className="w-10 mx-2" />
-        <Link to="/" className="text-blue-700 text-xl sm:text-2xl font-semibold text-center sm:text-left flex mx-2 cursor-pointer">
+        <Link to="/" className="text-blue-700 text-md sm:text-2xl font-semibold text-center sm:text-left flex mx-2 cursor-pointer">
           ADR- Due to Cancer Chemotherapy
         </Link>
       </div>
